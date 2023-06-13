@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(255, 248, 239);
+    background-image: url("bi.jpg")
+
+}
+nav {
+    background-color: #ffff42;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 10px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: solid;
+    font-size: large;
+    margin-left: 20px;
+    color: #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  nav a:hover {
+    background-color: #f8f800;
+    color: #333;
+    border-radius: 7px;
+  }
+  
+  section
+   {
+    margin-top: 20px;
+    text-align:center;
+ 
+ 
+  }
+  
+  h2 {
+    color: #fde5da;
+  }
+  li {
+    margin-right: 200px;
+  }
+
+.parent {
+  margin: 1rem;
+  padding: 2rem 2rem;
+ text-align:center;
+ background-color: rgba(70, 65, 124, 0.659);
+ border-radius: 25PX;
+}
+.child {
+  display: inline-block;
+  padding: 0rem 3rem;
+  border-radius: 5px;
+}
+#biography{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+   letter-spacing: 0.3mm;
+   color: rgb(255, 255, 255); 
+   
+    
+}
+#career{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+   letter-spacing: 0.3mm;
+   color: rgb(255, 255, 255);
+}
+div.gallery {
+  margin: 12px;
+  border: 1px solid #625f5f;
+  float: left;
+  width: 335px;
+}
+
+div.gallery:hover {
+  border: 1px solid #ffffff;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 275px;
+  border-radius: 10px;
+}
+.anoo{
+  margin:30px;
+  
+  
+}
+footer {
+  margin-top: 650px;
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 100%;
+  height:100px;
+}
+.foot{
+  padding: 20px;
+}
+#f{
+  font-weight: lighter;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
