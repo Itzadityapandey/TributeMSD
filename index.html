@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tribute to Thala - MS Dhoni</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <nav>
+    <nav class="navbar">
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#biography">Biography</a></li>
@@ -16,130 +19,120 @@
     </nav>
   </header>
 
-  <section id="home">
-    <div class="hero">
-      <h1 class="name">Captain Cool</h1>
-      <h3 class="name">Mahendra Singh Dhoni</h3>
-      <div class="intro-container">
-        <div class="intro-text">
-          <p id="intro">
-            MS Dhoni, one of the most iconic figures in Indian cricket, is renowned for his exceptional leadership and composure under pressure. Known as "Captain Cool," he led India to victories in the ICC World T20 (2007), ICC Cricket World Cup (2011), and ICC Champions Trophy (2013). His unconventional batting style, masterful wicket-keeping, and strategic brilliance have left an indelible mark on cricket. Dhoni's humility and dedication continue to inspire millions.
-          </p>
-        </div>
-        <div class="intro-image">
-          <img id="hero-image" src="https://i.pinimg.com/736x/51/22/41/51224119f7162ba6e4311d0e3ed77c36.jpg" alt="MS Dhoni">
+  <main>
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <h1 class="name">Captain Cool</h1>
+        <h2 class="name">Mahendra Singh Dhoni</h2>
+        <div class="hero-grid">
+          <div class="hero-text">
+            <p>
+              MS Dhoni, one of Indian cricket's most iconic figures, is celebrated for his exceptional leadership and composure under pressure. Known as "Captain Cool," he guided India to victories in the ICC World T20 (2007), ICC Cricket World Cup (2011), and ICC Champions Trophy (2013). His unique batting style, masterful wicket-keeping, and strategic brilliance have left an enduring legacy in cricket. Dhoni's humility and dedication continue to inspire millions worldwide.
+            </p>
+          </div>
+          <div class="hero-image">
+            <img src="https://caknowledge.com/wp-content/uploads/2021/05/MS-Dhoni-Net-Worth-New.jpeg" alt="MS Dhoni" loading="lazy">
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="biography">
-    <div class="container">
-      <h2>About the Legend</h2>
-      <p>
-        Mahendra Singh Dhoni, born on July 7, 1981, in Ranchi, Jharkhand, is a former Indian cricketer and one of the most successful captains in cricket history. Rising from humble beginnings, Dhoni debuted internationally in 2004, quickly gaining fame for his explosive batting and sharp wicket-keeping. His leadership saw India win the ICC World T20 (2007), ICC Cricket World Cup (2011), and ICC Champions Trophy (2013). Known for his calm demeanor and the iconic "helicopter shot," Dhoni holds records for the most international matches as India’s captain and the most stumpings by a wicket-keeper. Retiring in 2020, he remains a global cricket icon, involved in business and philanthropy.
-      </p>
-    </div>
-  </section>
+    <section id="biography" class="section">
+      <div class="container">
+        <h2>About the Legend</h2>
+        <p>
+          Mahendra Singh Dhoni, born on July 7, 1981, in Ranchi, Jharkhand, is a former Indian cricketer and one of the most successful captains in cricket history. From humble beginnings, Dhoni debuted internationally in 2004, quickly gaining fame for his explosive batting and sharp wicket-keeping. His leadership led India to win the ICC World T20 (2007), ICC Cricket World Cup (2011), and ICC Champions Trophy (2013). Known for his calm demeanor and the iconic "helicopter shot," Dhoni holds records for the most international matches as India’s captain and the most stumpings by a wicket-keeper. Retiring in 2020, he remains a global cricket icon, involved in business and philanthropy.
+        </p>
+      </div>
+    </section>
 
-  <section id="career">
-    <div class="container">
-      <h2>MS Dhoni's Career Highlights</h2>
-      <table>
-        <tr>
-          <th>Year</th>
-          <th>Tournament/Event</th>
-          <th>Achievement</th>
-        </tr>
-        <tr>
-          <td>2004</td>
-          <td>ODI Debut</td>
-          <td>Against Bangladesh in Chittagong</td>
-        </tr>
-        <tr>
-          <td>2007</td>
-          <td>ICC World T20</td>
-          <td>India won the tournament (Captain)</td>
-        </tr>
-        <tr>
-          <td>2008-2023</td>
-          <td>Indian Premier League (IPL)</td>
-          <td>Captain of Chennai Super Kings, won IPL titles in 2010, 2011, 2018, 2021, 2023</td>
-        </tr>
-        <tr>
-          <td>2011</td>
-          <td>ICC Cricket World Cup</td>
-          <td>India won the tournament (Captain)</td>
-        </tr>
-        <tr>
-          <td>2013</td>
-          <td>ICC Champions Trophy</td>
-          <td>India won the tournament (Captain)</td>
-        </tr>
-        <tr>
-          <td>2016</td>
-          <td>Asia Cup</td>
-          <td>India won the tournament (Captain)</td>
-        </tr>
-        <tr>
-          <td>2020</td>
-          <td>Retirement</td>
-          <td>Announced retirement from international cricket</td>
-        </tr>
-      </table>
-    </div>
-  </section>
+    <section id="career" class="section">
+      <div class="container">
+        <h2>Career Highlights</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Tournament/Event</th>
+              <th>Achievement</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2004</td>
+              <td>ODI Debut</td>
+              <td>Against Bangladesh in Chittagong</td>
+            </tr>
+            <tr>
+              <td>2007</td>
+              <td>ICC World T20</td>
+              <td>India won the tournament (Captain)</td>
+            </tr>
+            <tr>
+              <td>2008-2023</td>
+              <td>Indian Premier League (IPL)</td>
+              <td>Captain of Chennai Super Kings, won IPL titles in 2010, 2011, 2018, 2021, 2023</td>
+            </tr>
+            <tr>
+              <td>2011</td>
+              <td>ICC Cricket World Cup</td>
+              <td>India won the tournament (Captain)</td>
+            </tr>
+            <tr>
+              <td>2013</td>
+              <td>ICC Champions Trophy</td>
+              <td>India won the tournament (Captain)</td>
+            </tr>
+            <tr>
+              <td>2016</td>
+              <td>Asia Cup</td>
+              <td>India won the tournament (Captain)</td>
+            </tr>
+            <tr>
+              <td>2020</td>
+              <td>Retirement</td>
+              <td>Announced retirement from international cricket</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
 
-  <section id="gallery">
-    <div class="container">
-      <h2>Gallery</h2>
-      <div class="gallery-grid">
-        <div class="gallery-item">
-          <a target="_blank" href="https://images.moneycontrol.com/static-mcnews/2022/03/pjimage-18-3.jpg">
-            <img src="https://images.moneycontrol.com/static-mcnews/2022/03/pjimage-18-3.jpg" alt="MS Dhoni">
+    <section id="gallery" class="section">
+      <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+          <a href="https://images.moneycontrol.com/static-mcnews/2022/03/pjimage-18-3.jpg" target="_blank" class="gallery-item">
+            <img src="https://images.moneycontrol.com/static-mcnews/2022/03/pjimage-18-3.jpg" alt="MS Dhoni" loading="lazy">
           </a>
-        </div>
-        <div class="gallery-item">
-          <a target="_blank" href="https://images.indiafantasy.com/wp-content/uploads/20220824001651/Untitled-design-88-31.jpg">
-            <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_800,q_50/lsci/db/PICTURES/CMS/131100/131116.2.jpg" alt="MS Dhoni">
+          <a href="https://images.indiafantasy.com/wp-content/uploads/20220824001651/Untitled-design-88-31.jpg" target="_blank" class="gallery-item">
+            <img src="https://images.indiafantasy.com/wp-content/uploads/20220824001651/Untitled-design-88-31.jpg" alt="MS Dhoni" loading="lazy">
           </a>
-        </div>
-        <div class="gallery-item">
-          <a target="_blank" href="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/293700/293795.jpg">
-            <img src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/293700/293795.jpg" alt="MS Dhoni">
+          <a href="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/293700/293795.jpg" target="_blank" class="gallery-item">
+            <img src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/293700/293795.jpg" alt="MS Dhoni" loading="lazy">
           </a>
-        </div>
-        <div class="gallery-item">
-          <a target="_blank" href="https://i.pinimg.com/originals/6d/ce/97/6dce9771be83bbf8f90c5133e04d24ca.jpg">
-            <img src="https://i.pinimg.com/originals/6d/ce/97/6dce9771be83bbf8f90c5133e04d24ca.jpg" alt="MS Dhoni">
+          <a href="https://i.pinimg.com/originals/6d/ce/97/6dce9771be83bbf8f90c5133e04d24ca.jpg" target="_blank" class="gallery-item">
+            <img src="https://i.pinimg.com/originals/6d/ce/97/6dce9771be83bbf8f90c5133e04d24ca.jpg" alt="MS Dhoni" loading="lazy">
           </a>
-        </div>
-        <div class="gallery-item">
-          <a target="_blank" href="https://cdn" src="https://cdn-wp.thesportsrush.com/2017/09/51977343_dhoni.jpg">
-            <img src="https://cdn-wp.thesportsrush.com/2017/09/51977343_dhoni.jpg" alt="MS Dhoni">
+          <a href="https://cdn-wp.thesportsrush.com/2017/09/51977343_dhoni.jpg" target="_blank" class="gallery-item">
+            <img src="https://cdn-wp.thesportsrush.com/2017/09/51977343_dhoni.jpg" alt="MS Dhoni" loading="lazy">
           </a>
-        </div>
-        <div class="gallery-item">
-          <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5NwTZsVTltQ2HFuj5zX1Vopm02LXPezXY8A&usqp=CAU">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5NwTZsVTltQ2HFuj5zX1Vopm02LXPezXY8A&usqp=CAU" alt="MS Dhoni">
+          <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5NwTZsVTltQ2HFuj5zX1Vopm02LXPezXY8A&usqp=CAU" target="_blank" class="gallery-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5NwTZsVTltQ2HFuj5zX1Vopm02LXPezXY8A&usqp=CAU" alt="MS Dhoni" loading="lazy">
           </a>
-        </div>
-        <div class="gallery-item">
-          <a target="_blank" href="https://cdn.siasat.com/wp-content/uploads/2020/12/ms-dhoni-ed.jpg">
-            <img src="https://cdn.siasat.com/wp-content/uploads/2020/12/ms-dhoni-ed.jpg" alt="MS Dhoni">
+          <a href="https://cdn.siasat.com/wp-content/uploads/2020/12/ms-dhoni-ed.jpg" target="_blank" class="gallery-item">
+            <img src="https://cdn.siasat.com/wp-content/uploads/2020/12/ms-dhoni-ed.jpg" alt="MS Dhoni" loading="lazy">
           </a>
-        </div>
-        <div class="gallery-item">
-          <a target="_blank" href="https://munsifdaily.com/wp-content/uploads/2023/05/MSD-JADDU.jpg">
-            <img src="https://munsifdaily.com/wp-content/uploads/2023/05/MSD-JADDU.jpg" alt="MS Dhoni">
+          <a href="https://munsifdaily.com/wp-content/uploads/2023/05/MSD-JADDU.jpg" target="_blank" class="gallery-item">
+            <img src="https://munsifdaily.com/wp-content/uploads/2023/05/MSD-JADDU.jpg" alt="MS Dhoni" loading="lazy">
           </a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <footer>
-    <div class="footer-content">
+  <footer class="footer">
+    <div class="container">
       <p>Made with <svg viewBox="0 0 1792 1792" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" style="height: 0.8rem;"><path d="M896 1664q-26 0-44-18l-624-602q-10-8-27.5-26T145 952.5 77 855 23.5 734 0 596q0-220 127-344t351-124q62 0 126.5 21.5t120 58T820 276t76 68q36-36 76-68t95.5-68.5 120-58T1314 128q224 0 351 124t127 344q0 221-229 450l-623 600q-18 18-44 18z" fill="#e25555"></path></svg> by Aditya</p>
       <p class="disclaimer">All content is sourced from the internet. The author does not claim copyright and is not responsible for any misinformation.</p>
     </div>
